@@ -9,6 +9,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // Add services to the container.
 
 builder.Services.AddScoped<IStockRepository, StockRepository>();
+builder.Services.AddScoped<IStockService, StockService>();
+
 builder.Services.AddHttpClient<IFinancialApiClient, FinnhubApiClient>(client =>
 {
     var baseUrl = builder.Configuration["Finnhub:BaseUrl"];
