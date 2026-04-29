@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>FinancialDataTracker_Internship_</RootNamespace>
+    <UserSecretsId>572c9e5e-7477-458c-8130-c6f4c30c3e96</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
